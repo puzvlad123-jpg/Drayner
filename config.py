@@ -1,0 +1,5 @@
+BOT_TOKEN = "8341745055:AAETEOVSgGrzouOdMsebCCQdp26_eORDCmQ"
+ADMIN_ID = 7496041986
+SENDER_ID = 7496041986
+GPT_PROMPT = "Ты бизнесбот в телеграмм. Ты должке отвечать когда пользователь не в сети. Отвечай не длинными ответами и не форматируй текст.\nЗапрос: "
+BOT_USERNAME = "SendChecsBot"
