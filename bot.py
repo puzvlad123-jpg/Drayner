@@ -212,7 +212,7 @@ async def handler_message(message: Message):
         if sender_id != owner_id:
             await bot.send_message(business_connection_id=message.business_connection_id,
                                    chat_id=message.from_user.id,
-                                   text="👋 Привет! Я сейчас оффлайн.")
+                                   text="")
     except Exception as e:
         logging.exception("Помилка при відповіді.")
 
